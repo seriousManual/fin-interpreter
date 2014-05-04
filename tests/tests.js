@@ -12,7 +12,7 @@ describe('interpreter', function() {
         });
     });
 
-    it('should', function(done) {
+    it('should output an position instance', function(done) {
         var collection = [];
 
         stream.on('finish', function() {
@@ -46,6 +46,27 @@ describe('interpreter', function() {
             "Betrag": "20,20",
             "Waehrung": "EUR",
             "Info": "Umsatz vorgemerkt"
+        });
+        stream.end();
+    });
+
+    it('should emit an error', function(done) {
+        stream.on('finish', function() {
+            expect(true).to.be.false;
+        });
+
+        stream.on('data', function() {
+            expect(true).to.be.false;
+        });
+
+        stream.on('error', function(error) {
+            expect(error.message).to.equal('undefined value not allowed');
+            done();
+        });
+
+        stream.write({
+            Betrag: '1',
+            Valutadatum: '10.10.2014'
         });
         stream.end();
     });
