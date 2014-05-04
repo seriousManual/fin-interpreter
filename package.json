@@ -1,6 +1,6 @@
 {
   "name": "fin-interpreter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "creates positions out of raw data",
   "main": "./lib/Interpreter.js",
   "scripts": {
