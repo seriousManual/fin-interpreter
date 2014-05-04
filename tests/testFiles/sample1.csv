@@ -1,0 +1,5 @@
+"Auftragskonto";"Buchungstag";"Valutadatum";"Buchungstext";"Verwendungszweck";"Beguenstigter/Zahlungspflichtiger";"Kontonummer";"BLZ";"Betrag";"Waehrung";"Info"
+"11135445";"28.04";"02.05.14";"FOLGELASTSCHRIFT";"foo1";"partner1";"partner1Number";"partner1Bank";"-19,90";"EUR";"Umsatz vorgemerkt"
+"11135445";"28.04";"02.05.14";"FOLGELASTSCHRIFT";"foo2";"partner2";"partner2Number";"partner2Bank";"10,00";"EUR";"Umsatz vorgemerkt"
+"11135445";"28.04";"02.05.14";"FOLGELASTSCHRIFT";"foo3";"partner3";"partner3Number";"partner3Bank";"20,11";"EUR";"Umsatz vorgemerkt"
+"11135445";"28.04";"02.05.14";"FOLGELASTSCHRIFT";"foo4";"partner4";"partner4Number";"partner4Bank";"0,11";"EUR";"Umsatz vorgemerkt"
