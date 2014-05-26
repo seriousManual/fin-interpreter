@@ -9,13 +9,13 @@
   "author": "Manuel Ernst <zaphod84@gmx.de>",
   "license": "MIT",
   "devDependencies": {
-    "chai": "~1.9.1",
-    "sinon": "~1.9.1",
-    "mocha": "~1.18.2"
+    "chai": "^1.9.1",
+    "sinon": "^1.9.1",
+    "mocha": "^1.18.2"
   },
   "dependencies": {
-    "moment": "~2.6.0",
-    "require-directory": "~1.2.0",
+    "moment": "^2.6.0",
+    "require-directory": "^1.2.0",
     "fin-common": "git+https://zaphod1984@github.com/zaphod1984/fin-common.git"
   }
 }
